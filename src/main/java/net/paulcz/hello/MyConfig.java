@@ -9,7 +9,7 @@ import org.springframework.cloud.context.restart.RestartEndpoint;
 @ConfigurationProperties(prefix = "")
 public class MyConfig {
 
-	private String message = "Mohamed BENIGHIL 7";
+	private String message = "Mohamed BENIGHIL";
 
 	public String getMessage() {
 		return this.message;
